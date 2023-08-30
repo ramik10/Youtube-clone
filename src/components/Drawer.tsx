@@ -5,7 +5,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 export function Drawer(){
     return(
-            <div className="bg-black h-screen ml-4 mt-5 py-4 overflow-y-auto">
+            <div className="fixed bg-black h-screen ml-4 mt-20 py-4 overflow-y-auto">
       <ul className="space-y-2 font-medium">
          <li>
             <a href="#" className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-600 dark:hover:bg-gray-700 group">

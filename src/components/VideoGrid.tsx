@@ -14,7 +14,7 @@ const videos=[
 
 export function VideoGrid(){
     return(
-        <div className="grid grid-cols-12 mt-5">
+        <div className="grid grid-cols-12 mt-20">
             {videos.map((video)=>{
                 return(
             <div className="col-span-12 sm:col-span-6 lg:col-span-3 ml-2 mr-2 mt-2">
